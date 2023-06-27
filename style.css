@@ -1,0 +1,166 @@
+@font-face {
+    font-family: cyber;
+    src: url(/Users/amf/Downloads/cyber.ttf);
+}
+html {
+    font-family: cyber;
+    text-shadow: 2px 4px 4px rgba(255, 0, 200, 0.714);
+    font-size: 20px;
+}
+
+body {
+    display: flex;
+    box-sizing: border-box;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: stretch;
+    margin: 0;
+}
+
+header{
+    background-color: #000000;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: end;
+    gap: 10px;
+    padding-right: 10px;
+    color: #fdf800;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.mains {
+    background-color: #fdf800;
+    height:  300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.edw {
+    background-color: black;
+    height: 300px;
+}
+
+.eisai {
+    background-color:#fdf800;
+    height: 300px;
+}
+
+.re {
+    background-color: black;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #fdf800;
+    height: 200px;
+    padding: 20px;
+    margin-top: auto;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    flex-wrap: wrap;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    background-color: #fdf800;
+    height: 150px;
+    width: 150px;
+    border-radius: 25px ;
+}
+
+.nai {
+    height: 200px;
+    width: 600px;
+    background-color: #fdf800;
+}
+
+.left {
+    align-items: center;
+    margin-right: auto;
+    padding-left: 50px;
+}
+
+.right {
+    align-items: center;
+    margin-left: auto;
+    padding-right: 50px;
+}
+
+.mains img {
+    width: 400px;
+    height: 200px;
+   
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    color: #fdf800;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.eisai {
+    text-align: center;
+    font-size: 30px;
+}
+
+.nai {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    font-family: inherit;
+    font-size: 1em;
+    width: fit-content;
+    background-color: black;
+    color: #fdf800;
+    border-radius: 20%;
+    text-shadow: 2px 4px 4px rgba(255, 0, 200, 0.714);
+}
+
+button::after {
+    color: red;
+}
+
+.cont button {
+    margin-top: 10px;
+}
