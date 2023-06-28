@@ -6,6 +6,9 @@ html {
     font-family: cyber;
     text-shadow: 2px 4px 4px rgba(255, 0, 200, 0.714);
     font-size: 20px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -27,9 +30,9 @@ header{
     margin-top: auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    width: 100%;
+    justify-content: space-between;
     position: fixed;
+    width: 100%;
 }
 
 header img {
@@ -189,6 +192,15 @@ button {
     padding-left: 30px;
 }
 
-.info {
-    padding-right: 400px;
+button:hover {
+    color:rgba(255, 0, 200, 0.714);
+}
+
+a:hover {
+    color:rgba(255, 0, 200, 0.714);
+}
+
+.boxes img:hover {
+    width: 200px;
+    height: 200px;
 }
