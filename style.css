@@ -9,6 +9,7 @@ html {
     height: 100vh;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 a {
@@ -20,6 +21,7 @@ body {
     display: flex;
     box-sizing: border-box;
     height: 100vh;
+    width: 100%;
     flex-direction: column;
     justify-content: stretch;
     margin: 0;
@@ -129,8 +131,8 @@ footer {
 }
 
 .mains img {
-    width: 400px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 .cont {
@@ -201,6 +203,7 @@ a:hover {
 }
 
 .boxes img:hover {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
 }
