@@ -60,7 +60,7 @@ ul{
     height:  300px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding-top: 100px;
 }
@@ -133,6 +133,7 @@ footer {
 .mains img {
     width: 200px;
     height: 200px;
+    flex: .5;
 }
 
 .cont {
@@ -140,6 +141,7 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    flex: 1;
 }
 
 .info {
@@ -203,7 +205,7 @@ a:hover {
 }
 
 .boxes img:hover {
-    width: 300px;
-    height: 300px;
+    width: 160px;
+    height: 160px;
     position: absolute;
 }
