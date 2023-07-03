@@ -2,35 +2,23 @@
     font-family: cyber;
     src: url(cyber.ttf);
 }
-html {
-    font-family: cyber;
-    text-shadow: 2px 4px 4px rgba(255, 0, 200, 0.714);
-    font-size: 20px;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-.mega {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-}
 
 a {
     text-decoration: none;
     color: #fdf800;
 }
 
+.right {
+        display: flex;
+        margin-left: auto;
+        padding-right: 2%;
+}
+
 body {
-    display: flex;
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    flex-direction: column;
     height: 100vh;
     margin: 0;
+    font-family: cyber;
+    text-shadow: 2px 4px 4px rgba(255, 0, 200, 0.714);
 }
 
 header{
@@ -40,66 +28,64 @@ header{
     align-items: center;
     justify-content: space-between;
     height: 10%;
+    position: fixed;
+    width: 100%;
 }
 
 header img {
-    width: 18%;
+    height: 100px;
+   
 }
 
 ul{
     display: flex;
-    list-style: none;
-    text-decoration: none;
+    list-style: none;   
     justify-content: end;
     gap: 10%;
     padding-right: 10%;
     color: #fdf800;
-    font-weight: bold;
-    font-size: 1em;
-    text-shadow: none;
 }
 
 .mains {
     background-color: #fdf800;
-   flex: 1;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10%;
+}
+
+.black {
+    background-color: black;
+    padding: 25px;
+}
+.mains img {
+    width: 50%;
 }
 
 .edw {
     background-color: black;
     height: fit-content;
+    padding: 10px;
     
 }
 
 .eisai {
     background-color:#fdf800;
-    flex: 1;
-    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
 }
 
 .re {
     background-color: black;
-    flex: 1;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 8%;
+    height: 30%;
 }
 
 footer {
     background-color: #fdf800;
-    flex: 0.5;
-    position: relative;
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: flex; 
+    justify-content: space-around;
 }
 
 .boxes {
@@ -107,7 +93,6 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 300px;
     flex-wrap: wrap;
 }
 
@@ -121,18 +106,6 @@ footer {
     border: 3px solid   #fdf800;
 }
 
-.nai {
-    height: 200px;
-    width: 30%;
-    background-color: #fdf800;
-}
-
-.mains img {
-    width: 30%;
-    height: 30%;
-    flex: .5;
-}
-
 .cont {
     display: flex;
     flex-direction: column;
@@ -140,30 +113,20 @@ footer {
     align-items: center;
     flex: 1;
 }
-.koumpi {
-    padding-top: 20%;
-    padding-left: 10%;
-}
 
 .info {
     color: #fdf800;
     text-align: center;
     font-size: larger;
-    font-weight: bold;
-}
-
-.eisai {
-    text-align: center;
-    font-size: 30px;
 }
 
 .nai {
     display: flex;
-    justify-content: stretch;
-    padding-left: 10px;
-    border-radius: 20px;
-    height: 50%;
-
+    border-radius: 45px;
+    background-color: #fdf800;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 button {
@@ -190,10 +153,6 @@ button {
     height: 153px;
 }
 
-.contco {
-    padding: 10%;
-}
-
 .logia {
     width: 20%;
     height: 20%;
@@ -212,12 +171,5 @@ a:hover {
     width: 160px;
     height: 160px;
     position: absolute;
-}
-
-.mains,
-.edw,
-.eisai,
-.re {
-    flex: 1;
 }
 
